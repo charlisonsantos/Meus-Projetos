@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+h2,p{
+    text-align: center;
+    color: white;
+}
+.ct{
+    margin-left: 680px;
+    flex-direction: column;
+    
+}
+
+#ct2{
+    margin-top: 11px;
+}
+
+div{
+    margin-top: 8px;
+    margin-left:745px;
+    flex-direction: column;
+}
+
+#calc{
+    margin-top: 10px;
+    margin-left:725px;
+    flex-direction: column;
+}
+
+#resultado{
+    text-align: center;
+}
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js" defer></script>
+</head>
+<body>
+    <h2>Seja bem vinda(o) a calculadora!</h2>
+    <p>ela é uma simples calculadora onde voce pode somar,subtrair, multiplicar e dvidir</p>
+
+    <input type="number" class="ct" id="ct1" placeholder="digite o primeiro numero..."/>
+    <div>
+        <select id="ce">
+        <option value="soma">+</option>
+        <option value="subtracao">-</option>
+        <option value="multiplicacao">x</option>
+        <option value="divisao">/</option>
+    </select>
+    </div>
+    <input type="number" class="ct" id="ct2" placeholder="digite o segundo numero..."/><br>
+    <button onclick="soma()" id="calc">calcular</button>
+
+    <p id="resultado"></p>
+    
+</body>
+</html>
